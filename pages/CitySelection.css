@@ -1,0 +1,112 @@
+.card-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.card-main .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px 20px 0 0;
+}
+/* .card-main .card .card-title{
+
+} */
+.card-main .card .cop-image{
+    height: 150px;
+    width: 150px;
+}
+.card-main .card .Allocate-City{
+    width: 100%;
+    padding: 10px 0;
+    outline:  none;
+    border-color: transparent;
+    color: #282c34;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: url('../images/hand-cursor.png'), auto;
+}
+.card-main .card .Allocate-City:hover{
+    color: white;
+    background-color: #282c34;
+}
+
+.Line-Selected-city{
+    transform: rotate(90deg);
+    width: 23px;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #282c34;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 70%;
+    width: 80%;
+  }
+  
+  .popup-close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50% 0 50%     50%;
+    border-color: transparent;
+    padding: 25px 30px;
+    font-size: 50px;
+    cursor: url('../images/hand-cursor.png'), auto;
+  }
+  
+  /* Hide scrollbar when popup is open */
+  body.popup-open {
+    overflow: hidden;
+  }
+
+  .cities-card-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .cities-card{
+    background-color: #282c34;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    width: 150px;
+  }
+
+  .cities-card .cities-image{
+    height: 100px;
+    width: 100px;
+  }
+  .cities-card .Select-City-btn{
+    color: #282c34;
+    height: 20px;
+    width: 100%;
+    outline: none;
+    border-color: #282c34;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    cursor: url('../images/hand-cursor.png'), auto;
+  }
+  
