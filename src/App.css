@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  cursor: url("./images/cursor.png"), auto;
 }
 
 .App-logo {
